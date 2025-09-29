@@ -1,0 +1,44 @@
+AI Fact-Check & Plagiarism Detector
+📝 Overview
+This is a simple yet powerful web-based tool designed to help users verify the authenticity of text, identify potential AI hallucinations, and discover original sources. By leveraging the Gemini API with Google Search grounding, it provides fact-checked content and a list of relevant source links, making it an excellent utility for students, writers, and researchers.
+
+
+✨ Features
+Fact-Checking: Analyzes input text and corrects inaccuracies while preserving the original intent.
+
+Source Detection: Provides a list of web sources that are relevant to the provided text, helping to detect potential plagiarism.
+
+Clean & Responsive UI: A modern, user-friendly interface built with Tailwind CSS that works seamlessly on both desktop and mobile devices.
+
+Easy to Use: Simply paste your text and click a button to get instant results.
+
+Self-Contained: The entire tool is built within a single index.html file, making it incredibly portable and easy to deploy.
+
+🚀 How to Use
+Open index.html: Open the index.html file in any modern web browser.
+
+Enter Text: Paste or type the text you wish to verify into the text area.
+
+Fact-Check: Click the "Fact-Check" button.
+
+Review Results:
+
+The Verified Content section will display the analyzed and potentially corrected version of your text.
+
+The Detected Sources section will list clickable links to the original sources found on the web.
+
+💻 Technology Stack
+Frontend: HTML, Tailwind CSS, JavaScript
+
+Core Logic: Gemini API (gemini-2.5-flash-preview-05-20) with Google Search grounding
+
+🛠️ Setup
+No complex setup is required! Since this is a single-file application, you can simply:
+
+Clone or download the repository.
+
+Open the index.html file directly in your web browser.
+
+That's it! You're ready to start fact-checking.
+
+<p></p>
